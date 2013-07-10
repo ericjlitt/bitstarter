@@ -30,7 +30,7 @@ var cheerioHtmlFile = function(htmlfile) {
 };
 
 var loadChecks = function(checksfile) {
-    return JSON.parse(fs.readFileSync(checksfile);)
+    return JSON.parse(fs.readFileSync(checksfile));
 };
 
 var checkHtmlFile = function(htmlfile, checksfile) {
